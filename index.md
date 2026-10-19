@@ -5,33 +5,37 @@ section: about
 permalink: /
 ---
 
-# Navid Dejbord
+<h1>Navid Dejbord</h1>
+<p class="tagline">MATHEMATICAL LOGIC · PROOF THEORY · PROVABILITY LOGIC · TYPE THEORY</p>
 
-Mathematical logic · Proof theory · Provability logic · Type theory
+<p class="lead">I studied mathematics at Sharif University of Technology, where I completed an M.Sc. in mathematical logic in 2024. My research interests concern mathematical logic, particularly proof theory and provability logic. Previous work includes the provability logic of Peano Arithmetic and the Σ₁-provability logic of Heyting Arithmetic.</p>
+<p>I have more recently been studying type theory and homotopy type theory independently. I am also interested in related questions in foundations of mathematics and theoretical computer science.</p>
 
-I studied mathematics at Sharif University of Technology, completing an M.Sc. in Mathematical Logic in 2024. My research has concerned proof theory and provability logic, particularly the provability logic of Peano Arithmetic and the Σ₁-provability logic of Heyting Arithmetic.
+<section id="research">
+  <h2>Research</h2>
+  <article class="entry">
+    <a href="{{ '/research/heyting-arithmetic/' | relative_url }}">Σ₁-Provability Logic of Heyting Arithmetic</a>
+    <div class="metadata">Master’s thesis · Sharif University of Technology · 2024</div>
+    <p>Supervisor: Mohammad Ardeshir; adviser: Mojtaba Mojtahedi.</p>
+  </article>
+  <article class="entry">
+    <a href="{{ '/research/peano-arithmetic/' | relative_url }}">Provability Logic of Peano Arithmetic</a>
+    <div class="metadata">Bachelor’s thesis · Sharif University of Technology · 2021</div>
+    <p>Supervisor: Mohammad Ardeshir.</p>
+  </article>
+</section>
 
-More recently, I have been studying type theory and homotopy type theory independently. My interests also include constructive mathematics, the foundations of mathematics, and related questions in theoretical computer science.
+<section id="writings">
+  <h2>Writings &amp; Talks</h2>
+  <p>Presentations in mathematical logic and related subjects, and selected expository writing. <a href="{{ '/writings/' | relative_url }}">View writings and talks</a>.</p>
+</section>
 
-## Research
+<section id="projects">
+  <h2>Projects</h2>
+  <p>This section will host selected mathematical and computational projects as they become available. <a href="{{ '/projects/' | relative_url }}">View projects</a>.</p>
+</section>
 
-<div class="entry">
-  <h3 class="entry-title"><a href="{{ '/research/heyting-arithmetic/' | relative_url }}">Σ₁-Provability Logic of Heyting Arithmetic</a></h3>
-  <p class="entry-meta">Master's thesis · Sharif University of Technology · 2024</p>
-  <p>Supervisor: Mohammad Ardeshir; adviser: Mojtaba Mojtahedi.</p>
-</div>
-<div class="entry">
-  <h3 class="entry-title"><a href="{{ '/research/peano-arithmetic/' | relative_url }}">Provability Logic of Peano Arithmetic</a></h3>
-  <p class="entry-meta">Bachelor's thesis · Sharif University of Technology · 2021</p>
-  <p>Supervisor: Mohammad Ardeshir.</p>
-</div>
-
-[More about my research]({{ '/research/' | relative_url }})
-
-## Writing & talks
-
-Selected presentations in mathematical logic and expository writing are listed under [Writing & Talks]({{ '/writings/' | relative_url }}).
-
-## Contact
-
-[GitHub](https://github.com/NavidDejbord). Academic email and other contact information can be added after selecting the details intended for public display.
+<section id="cv">
+  <h2>Curriculum Vitae</h2>
+  <p>A public-facing PDF version will be added after review. <a href="{{ '/cv/' | relative_url }}">View CV overview</a>.</p>
+</section>
