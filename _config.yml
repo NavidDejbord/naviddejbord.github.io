@@ -1,0 +1,10 @@
+title: Navid Dejbord
+description: Academic homepage of Navid Dejbord — mathematical logic, proof theory, provability logic, and type theory.
+url: "https://naviddejbord.github.io"
+baseurl: ""
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+exclude:
+  - "*.zip"
