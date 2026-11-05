@@ -1,20 +1,27 @@
 ---
 layout: default
-title: Provability Logic of Peano Arithmetic
+title: Provability Logic
 section: research
 permalink: /research/peano-arithmetic/
 ---
 
-# Provability Logic of Peano Arithmetic
+# Provability Logic
 
 *Bachelor's thesis · Sharif University of Technology · 2021*
 
 **Supervisor:** Mohammad Ardeshir
 
-This thesis studied the provability logic of Peano Arithmetic and connections between formal arithmetic and modal principles of provability.
+## Documents
 
-## Related documents
+- **[English thesis summary (PDF)]({{ '/files/bachelors-thesis-summary.pdf' | relative_url }})** — 2 pages
+- [Full bachelor's thesis (PDF, Persian)]({{ '/files/bachelors-thesis.pdf' | relative_url }}) — 33 pages
 
-An English summary and the thesis text may be linked here after selecting versions for public distribution.
+## Summary
+
+This expository thesis treats provability logic with a focus on primitive recursive arithmetic (PRA) and its formalized provability predicate.
+
+The first part develops arithmetization of syntax and proofs, the Hilbert–Bernays–Löb derivability conditions, diagonalization, incompleteness, and Löb's theorem. The second introduces Gödel–Löb logic (GL), its Kripke semantics, and modal fixed-point results. The final part presents Solovay's arithmetical completeness theorem and the corresponding characterization for substitutions by Σ₁ sentences, including Visser's GLV.
+
+The objective is to develop a self-contained mathematical account of the relationship between formal arithmetic and modal principles of provability.
 
 [Back to research]({{ '/research/' | relative_url }})

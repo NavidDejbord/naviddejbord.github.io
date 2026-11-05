@@ -7,21 +7,27 @@ permalink: /research/
 
 # Research
 
-My work has primarily concerned provability logic in classical and intuitionistic arithmetic. I am interested in the relationship between syntactic proof systems, arithmetical interpretations, and modal reasoning.
+My work has primarily concerned provability logic in classical and intuitionistic arithmetic. I am interested in the relationship between formal proof systems, arithmetical interpretations, and modal reasoning.
 
 ## Theses
 
-### [Σ₁-Provability Logic of Heyting Arithmetic]({{ '/research/heyting-arithmetic/' | relative_url }})
+### [The Σ₁-Provability Logic of Heyting Arithmetic]({{ '/research/heyting-arithmetic/' | relative_url }})
 
-**Master's thesis, 2024** — Sharif University of Technology. Supervised by Mohammad Ardeshir, advised by Mojtaba Mojtahedi.
+**Master's thesis · 2024** — Sharif University of Technology  
+Supervisor: Mohammad Ardeshir; adviser: Mojtaba Mojtahedi
 
-The accompanying English exposition focuses on the assumptions, mathematical tools, intermediate results, and connections needed to understand the proofs.
+An exposition of the 2018 Ardeshir–Mojtahedi characterization of the Σ₁-provability logic of Heyting Arithmetic, including realizability, modal approximation, and Solovay-style Kripke-model constructions.
 
-### [Provability Logic of Peano Arithmetic]({{ '/research/peano-arithmetic/' | relative_url }})
+[English summary (PDF)]({{ '/files/masters-thesis-summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/masters-thesis.pdf' | relative_url }})
 
-**Bachelor's thesis, 2021** — Sharif University of Technology. Supervised by Mohammad Ardeshir.
+### [Provability Logic]({{ '/research/peano-arithmetic/' | relative_url }})
 
-A study of arithmetical provability and its interpretation through modal logic.
+**Bachelor's thesis · 2021** — Sharif University of Technology  
+Supervisor: Mohammad Ardeshir
+
+An exposition of arithmetical provability in primitive recursive arithmetic (PRA), Gödel–Löb logic, fixed points, Solovay's completeness theorem, and Σ₁ substitutions.
+
+[English summary (PDF)]({{ '/files/bachelors-thesis-summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/bachelors-thesis.pdf' | relative_url }})
 
 ## Current areas of interest
 

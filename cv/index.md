@@ -7,7 +7,7 @@ permalink: /cv/
 
 # Curriculum Vitae
 
-A concise academic profile appears below. A downloadable CV will be included after reviewing the version intended for public distribution.
+A concise academic profile appears below. The full CV can be added here after selecting a public version.
 
 ## Education
 
@@ -17,10 +17,17 @@ Sharif University of Technology · 2024
 **B.Sc. in Mathematics, Pure Mathematics**  
 Sharif University of Technology · 2021
 
-## Research
+## Research and thesis documents
 
-- [Σ₁-Provability Logic of Heyting Arithmetic]({{ '/research/heyting-arithmetic/' | relative_url }}) — Master's thesis, 2024.
-- [Provability Logic of Peano Arithmetic]({{ '/research/peano-arithmetic/' | relative_url }}) — Bachelor's thesis, 2021.
+### Master's thesis (2024)
+
+[The Σ₁-Provability Logic of Heyting Arithmetic]({{ '/research/heyting-arithmetic/' | relative_url }})  
+[English research summary (PDF)]({{ '/files/masters-thesis-summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/masters-thesis.pdf' | relative_url }})
+
+### Bachelor's thesis (2021)
+
+[Provability Logic]({{ '/research/peano-arithmetic/' | relative_url }})  
+[English research summary (PDF)]({{ '/files/bachelors-thesis-summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/bachelors-thesis.pdf' | relative_url }})
 
 ## Selected teaching and academic activities
 
@@ -28,4 +35,4 @@ Sharif University of Technology · 2021
 - Mathematics teaching and editorial work (2024–2026).
 - Editor-in-Chief, *Sharif Mathematics Journal* (2023–2024).
 
-See the [research]({{ '/research/' | relative_url }}) and [writing & talks]({{ '/writings/' | relative_url }}) pages for further details.
+See [Research]({{ '/research/' | relative_url }}) and [Writings & Talks]({{ '/writings/' | relative_url }}) for further details.
