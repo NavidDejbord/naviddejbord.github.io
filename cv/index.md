@@ -7,7 +7,9 @@ permalink: /cv/
 
 # Curriculum Vitae
 
-A concise academic profile appears below. The full CV can be added here after selecting a public version.
+**[View or download the complete CV (PDF)]({{ '/files/navid-dejbord-cv.pdf' | relative_url }})**
+
+The PDF includes my academic background, research, writings and presentations, teaching, skills, and related experience.
 
 ## Education
 
