@@ -11,7 +11,7 @@ Selected presentations and expository work. These are listed separately from pee
 
 ## Writing
 
-- **Transcendence of Numbers** (2024). *Sharif Mathematics Journal*, 3(2).
+- **[Transcendence of Numbers](https://sharif-math-journal.github.io/assets/archive/thirdSeries/articles/Issue2/8.pdf)** (2024). *Sharif Mathematics Journal*, 3(2).
 - **Where Do You Get Your Crazy Ideas?** (2025). Persian translation of an essay by Ian Stewart, prepared for *Sharif Mathematics Journal*.
 
 ## Talks

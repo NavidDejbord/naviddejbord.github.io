@@ -21,12 +21,12 @@ Sharif University of Technology · 2021
 
 ### Master's thesis (2024)
 
-[The Σ₁-Provability Logic of Heyting Arithmetic]({{ '/research/heyting-arithmetic/' | relative_url }})  
+[The Σ₁-Provability Logic of Heyting Arithmetic]({{ '/research/masters-thesis/' | relative_url }})  
 [English research summary (PDF)]({{ '/files/masters-thesis-summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/masters-thesis.pdf' | relative_url }})
 
 ### Bachelor's thesis (2021)
 
-[Provability Logic]({{ '/research/peano-arithmetic/' | relative_url }})  
+[Provability Logic]({{ '/research/bachelors-thesis/' | relative_url }})  
 [English research summary (PDF)]({{ '/files/bachelors-thesis-summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/bachelors-thesis.pdf' | relative_url }})
 
 ## Selected teaching and academic activities

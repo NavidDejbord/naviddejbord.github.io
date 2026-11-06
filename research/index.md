@@ -11,7 +11,7 @@ My work has primarily concerned provability logic in classical and intuitionisti
 
 ## Theses
 
-### [The Σ₁-Provability Logic of Heyting Arithmetic]({{ '/research/heyting-arithmetic/' | relative_url }})
+### [The Σ₁-Provability Logic of Heyting Arithmetic]({{ '/research/masters-thesis/' | relative_url }})
 
 **Master's thesis · 2024** — Sharif University of Technology  
 Supervisor: Mohammad Ardeshir; adviser: Mojtaba Mojtahedi
@@ -20,7 +20,7 @@ An exposition of the 2018 Ardeshir–Mojtahedi characterization of the Σ₁-pro
 
 [English summary (PDF)]({{ '/files/masters-thesis-summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/masters-thesis.pdf' | relative_url }})
 
-### [Provability Logic]({{ '/research/peano-arithmetic/' | relative_url }})
+### [Provability Logic]({{ '/research/bachelors-thesis/' | relative_url }})
 
 **Bachelor's thesis · 2021** — Sharif University of Technology  
 Supervisor: Mohammad Ardeshir
