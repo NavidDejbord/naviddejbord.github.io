@@ -1,0 +1,36 @@
+name: Publish CV PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'cv/navid-dejbord.tex'
+      - '.github/workflows/build-cv.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-cv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile CV
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: navid-dejbord.tex
+          working_directory: cv
+      - name: Commit CV PDF for GitHub Pages
+        run: |
+          mkdir -p files
+          cp cv/navid-dejbord.pdf files/navid-dejbord-cv.pdf
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add files/navid-dejbord-cv.pdf
+          if git diff --cached --quiet; then
+            echo 'CV PDF already up to date.'
+            exit 0
+          fi
+          git commit -m 'Publish compiled CV PDF'
+          git push origin HEAD:main

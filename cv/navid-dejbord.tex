@@ -1,0 +1,137 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=1.85cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{array}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=black,
+  linkcolor=black
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=1.2em,label=--,itemsep=0.55em,topsep=0.3em,parsep=0pt,partopsep=0pt}
+
+\titleformat{\section}
+  {\Large\bfseries}
+  {}{0pt}{}
+\titlespacing*{\section}{0pt}{1.65em}{0.75em}
+
+\newcommand{\cvrow}[2]{%
+  \noindent\begin{tabularx}{\textwidth}{@{}X>{\raggedleft\arraybackslash}p{0.31\textwidth}@{}}
+    #1 & #2
+  \end{tabularx}%
+}
+
+\newcommand{\cventry}[4]{%
+  \item \cvrow{\textbf{#1}}{#2}\\[-0.2em]
+  \cvrow{#3}{#4}
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries \href{https://naviddejbord.github.io/}{Navid Dejbord}}\\[0.55em]
+  {\large Tehran, Iran}\\[0.45em]
+  {\large +989351525125 \;|\; \href{mailto:navid.dejbord@gmail.com}{Email} \;|\; \href{https://linkedin.com/in/Naviddejbord}{LinkedIn}}
+\end{center}
+
+\section{Research Profile}
+My research interests are in mathematical logic, particularly proof theory and provability logic. My previous work includes the provability logic of Peano Arithmetic and the ($\Sigma_1$)-provability logic of Heyting Arithmetic. More recently, I have been independently studying type theory and homotopy type theory, with the aim of developing further research in these areas. I am also open to related directions in logic, foundations of mathematics, and theoretical computer science.
+
+\section{Education}
+\begin{itemize}
+  \item \cvrow{\textbf{Master of Mathematics}}{\textit{Mathematical Logic}}\\[-0.15em]
+  \cvrow{Sharif University of Technology, Tehran, Iran}{Graduated: September 2024}\\[-0.15em]
+  \textbf{Relevant Coursework:} \textit{Constructive Mathematics, Proof Theory, Model Theory, Type Theory.}
+
+  \item \cvrow{\textbf{Bachelor of Mathematics}}{\textit{Pure Mathematics}}\\[-0.15em]
+  \cvrow{Sharif University of Technology, Tehran, Iran}{Graduated: September 2021}\\[-0.15em]
+  \textbf{Relevant Coursework:} \textit{Foundations of Mathematics, Mathematical Logic, Modal Logic,}\\
+  \hspace*{11.5em}\textit{Intuitionistic Logic, G\"odel's Incompleteness Theorems.}
+\end{itemize}
+
+\section{Research Projects}
+\begin{itemize}
+  \item \cvrow{\href{https://naviddejbord.github.io/research/masters-thesis}{\textbf{$\Sigma_1$-Provability Logic of Heyting Arithmetic}} \textit{(Masters's Thesis)}}{2023--2024}\\
+  Supervised by Mohammad Ardeshir, Advised by Mojtaba Mojtahedi\\
+  \textit{\small{Studied the characterization of the $\Sigma_1$-provability logic of Heyting arithmetic, including its axiomatization, soundness, completeness, and decidability. Examined the role of realizability, NNIL/TNNIL approximation algorithms, and Solovay-style Kripke-model constructions in the completeness proof.}}
+
+  \item \cvrow{\href{https://naviddejbord.github.io/research/bachelors-thesis}{\textbf{Provability Logic of Peano Arithmetic}} \textit{(Bachelors's Thesis)}}{2020--2021}\\
+  Supervised by Mohammad Ardeshir\\
+  \textit{Studied the formalization of provability in primitive recursive arithmetic, including Gödel numbering, the diagonal lemma, and Löb's theorem. Examined Gödel–Löb logic and the arithmetical completeness results of Solovay and Visser, including the case of $\Sigma_1$ substitutions.}
+\end{itemize}
+
+\section{Articles and Presentations}
+\begin{itemize}
+  \item \cvrow{\textbf{Decidability of Euclidean Geometry}}{2025}\\[-0.2em]
+  \textit{Scientific Seminar Series for Students}, Allameh Helli 5 High School.
+
+  \item \cvrow{\textbf{Where Do You Get Your Crazy Ideas?} (translation to Persian)}{2025}\\[-0.2em]
+  Ian Stewart, \textit{Sharif Mathematics Journal}, 3(3) (to be published).
+
+  \item \cvrow{\href{https://sharif-math-journal.github.io/assets/archive/thirdSeries/articles/Issue2/8.pdf}{\textbf{Transcendence of Numbers}}}{2024}\\[-0.2em]
+  \textit{Sharif Mathematics Journal}, 3(2).
+
+  \item \cvrow{\textbf{Proof Complexity}}{2023}\\[-0.2em]
+  \textit{Computer Sciences Seminar}, Sharif University of Technology, Department of Mathematical Sciences.
+
+  \item \cvrow{\textbf{NNIL Algorithm}}{2022}\\[-0.2em]
+  \textit{Logic Seminar}, Sharif University of Technology, Department of Mathematical Sciences.
+\end{itemize}
+
+\section{Academic Achievements}
+\begin{itemize}
+  \item \cvrow{\textbf{University Entrance Exam (Master's):} Rank 15 (Nationwide)}{2021}\\[-0.2em]
+  \textit{Ranked among the top $1\%$ candidates in the nationwide master's entrance exam.}
+
+  \item \cvrow{\textbf{University Entrance Exam (Bachelor's):} Rank 110 (Nationwide)}{2016}\\[-0.2em]
+  \textit{Ranked among the top $0.1\%$ candidates in the nationwide master's entrance exam.}
+\end{itemize}
+
+\section{Experiences}
+\begin{itemize}
+  \item \cvrow{\textbf{Mathematics Teacher}}{\textit{High School Geometry}}\\[-0.2em]
+  \cvrow{Allameh Helli High School}{2024--2026}
+
+  \item \textbf{Mathematics Editor}\\[-0.2em]
+  \cvrow{Monta Educational Institution, Maze Educational Institution}{2024--2026}
+
+  \item \cvrow{\textbf{Teaching Assistant}}{\textit{Mathematical Logic, Logic for Computer Sciences}}\\[-0.2em]
+  \cvrow{Sharif University of Technology}{2019--2025}
+
+  \item \textbf{Part-time Bookseller}\\[-0.2em]
+  \cvrow{Sari Bookcity, Bookshaar Bookstore}{2021--2024}
+\end{itemize}
+
+\section{Technical Skills}
+\begin{itemize}
+    \item Python, LaTeX, Lean, Agda
+\end{itemize}
+
+\section{Current Status}
+\begin{itemize}
+  \item \cvrow{\textbf{Mandatory National Service}}{2026--Present}\\[-0.2em]
+  Islamic Republic of Iran Army (Artesh)
+\end{itemize}
+
+\section{Volunteer Activities}
+\begin{itemize}
+  \item \cvrow{\textbf{Editor-in-Chief} of \textit{Sharif Mathematics Journal}}{2023--2024}\\[-0.2em]
+  \textit{A student journal conducted by current and former students of the mathematics department at Sharif University of Technology.}
+
+  \item \cvrow{\textbf{Member} of \textit{Yarigaran Center}}{2018--2019}\\[-0.2em]
+  \textit{A student association at Sharif University of Technology dedicated to promoting educational justice by supporting disadvantaged students.}
+\end{itemize}
+
+\end{document}
