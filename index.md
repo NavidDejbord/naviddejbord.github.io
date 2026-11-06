@@ -27,16 +27,6 @@ permalink: /
   </article>
 </section>
 
-<section id="writings">
-  <h2>Writings &amp; Talks</h2>
-  <p>Presentations in mathematical logic and related subjects, and selected expository writing. <a href="{{ '/writings/' | relative_url }}">View writings and talks</a>.</p>
-</section>
-
-<section id="projects">
-  <h2>Projects</h2>
-  <p>This section will host selected mathematical and computational projects as they become available. <a href="{{ '/projects/' | relative_url }}">View projects</a>.</p>
-</section>
-
 <section id="cv">
   <h2>Curriculum Vitae</h2>
   <p><a href="{{ '/cv/' | relative_url }}">CV overview and thesis documents</a>. A public-facing CV PDF will be added after review.</p>
