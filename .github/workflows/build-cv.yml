@@ -16,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - name: Compile CV
         uses: xu-cheng/latex-action@v3
         with:
@@ -23,6 +25,8 @@ jobs:
           working_directory: cv
       - name: Commit CV PDF for GitHub Pages
         run: |
+          git fetch origin main
+          git reset --hard origin/main
           mkdir -p files
           cp cv/navid-dejbord.pdf files/navid-dejbord-cv.pdf
           git config user.name 'github-actions[bot]'
