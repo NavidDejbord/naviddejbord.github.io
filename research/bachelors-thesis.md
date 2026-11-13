@@ -13,8 +13,8 @@ permalink: /research/bachelors-thesis/
 
 ## Documents
 
-- **[English thesis summary (PDF)]({{ '/files/bachelors-thesis-summary.pdf' | relative_url }})** — 2 pages
-- [Full bachelor's thesis (PDF, Persian)]({{ '/files/bachelors-thesis.pdf' | relative_url }}) — 33 pages
+- **[English thesis summary (PDF)]({{ '/files/Bachelors_Thesis_Summary.pdf' | relative_url }})** — 2 pages
+- [Full bachelor's thesis (PDF, Persian)]({{ '/files/Provability%20Logic%20of%20PRA.pdf' | relative_url }}) — 33 pages
 
 ## Summary
 
