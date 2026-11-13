@@ -24,12 +24,12 @@ Sharif University of Technology · 2021
 ### Master's thesis (2024)
 
 [The Σ₁-Provability Logic of Heyting Arithmetic]({{ '/research/masters-thesis/' | relative_url }})  
-[English research summary (PDF)]({{ '/files/masters-thesis-summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/masters-thesis.pdf' | relative_url }})
+[English research summary (PDF)]({{ '/files/Masters_Thesis_Research_Summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/Sigma-1%20Provability%20Logic%20of%20HA.pdf' | relative_url }})
 
 ### Bachelor's thesis (2021)
 
 [Provability Logic]({{ '/research/bachelors-thesis/' | relative_url }})  
-[English research summary (PDF)]({{ '/files/bachelors-thesis-summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/bachelors-thesis.pdf' | relative_url }})
+[English research summary (PDF)]({{ '/files/Bachelors_Thesis_Summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/Provability%20Logic%20of%20PRA.pdf' | relative_url }})
 
 ## Selected teaching and academic activities
 
