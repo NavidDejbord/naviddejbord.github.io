@@ -14,8 +14,8 @@ permalink: /research/masters-thesis/
 
 ## Documents
 
-- **[English thesis summary (PDF)]({{ '/files/masters-thesis-summary.pdf' | relative_url }})** — 2 pages
-- [Full master's thesis (PDF, Persian)]({{ '/files/masters-thesis.pdf' | relative_url }}) — 73 pages
+- **[English thesis summary (PDF)]({{ '/files/Masters_Thesis_Research_Summary.pdf' | relative_url }})** — 2 pages
+- [Full master's thesis (PDF, Persian)]({{ '/files/Sigma-1%20Provability%20Logic%20of%20HA.pdf' | relative_url }}) — 73 pages
 
 ## Summary
 
