@@ -17,13 +17,13 @@ permalink: /
     <a href="{{ '/research/masters-thesis/' | relative_url }}">The Σ₁-Provability Logic of Heyting Arithmetic</a>
     <div class="metadata">Master’s thesis · Sharif University of Technology · 2024</div>
     <p>Supervisor: Mohammad Ardeshir; adviser: Mojtaba Mojtahedi.</p>
-    <p><a href="{{ '/files/masters-thesis-summary.pdf' | relative_url }}">English summary (PDF)</a> · <a href="{{ '/files/masters-thesis.pdf' | relative_url }}">Full thesis (PDF)</a></p>
+    <p><a href="{{ '/files/Masters_Thesis_Research_Summary.pdf' | relative_url }}">English summary (PDF)</a> · <a href="{{ '/files/Sigma-1%20Provability%20Logic%20of%20HA.pdf' | relative_url }}">Full thesis (PDF)</a></p>
   </article>
   <article class="entry">
     <a href="{{ '/research/bachelors-thesis/' | relative_url }}">Provability Logic</a>
     <div class="metadata">Bachelor’s thesis · Sharif University of Technology · 2021</div>
     <p>Supervisor: Mohammad Ardeshir.</p>
-    <p><a href="{{ '/files/bachelors-thesis-summary.pdf' | relative_url }}">English summary (PDF)</a> · <a href="{{ '/files/bachelors-thesis.pdf' | relative_url }}">Full thesis (PDF)</a></p>
+    <p><a href="{{ '/files/Bachelors_Thesis_Summary.pdf' | relative_url }}">English summary (PDF)</a> · <a href="{{ '/files/Provability%20Logic%20of%20PRA.pdf' | relative_url }}">Full thesis (PDF)</a></p>
   </article>
 </section>
 
