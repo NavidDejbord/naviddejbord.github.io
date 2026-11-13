@@ -36,6 +36,6 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add files/masters-thesis.pdf files/masters-thesis-summary.pdf files/bachelors-thesis.pdf files/bachelors-thesis-summary.pdf files/*.zip
+          git add -A files/
           git commit -m "Add thesis PDFs to academic website"
           git push origin HEAD:main
