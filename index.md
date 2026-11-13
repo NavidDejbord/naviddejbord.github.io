@@ -29,5 +29,5 @@ permalink: /
 
 <section id="cv">
   <h2>Curriculum Vitae</h2>
-  <p><a href="{{ '/cv/' | relative_url }}">CV overview and thesis documents</a>. [Download my CV (PDF)]({{ '/files/navid-dejbord-cv.pdf' | relative_url }}).</p>
+  <p><a href="{{ '/cv/' | relative_url }}">CV overview and thesis documents</a>. <a href="{{ '/files/navid-dejbord-cv.pdf' | relative_url }}">Download my CV (PDF)</a>.</p>
 </section>
