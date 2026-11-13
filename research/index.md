@@ -18,7 +18,7 @@ Supervisor: Mohammad Ardeshir; adviser: Mojtaba Mojtahedi
 
 An exposition of the 2018 Ardeshir–Mojtahedi characterization of the Σ₁-provability logic of Heyting Arithmetic, including realizability, modal approximation, and Solovay-style Kripke-model constructions.
 
-[English summary (PDF)]({{ '/files/masters-thesis-summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/masters-thesis.pdf' | relative_url }})
+[English summary (PDF)]({{ '/files/Masters_Thesis_Research_Summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/Sigma-1%20Provability%20Logic%20of%20HA.pdf' | relative_url }})
 
 ### [Provability Logic]({{ '/research/bachelors-thesis/' | relative_url }})
 
@@ -27,7 +27,7 @@ Supervisor: Mohammad Ardeshir
 
 An exposition of arithmetical provability in primitive recursive arithmetic (PRA), Gödel–Löb logic, fixed points, Solovay's completeness theorem, and Σ₁ substitutions.
 
-[English summary (PDF)]({{ '/files/bachelors-thesis-summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/bachelors-thesis.pdf' | relative_url }})
+[English summary (PDF)]({{ '/files/Bachelors_Thesis_Summary.pdf' | relative_url }}) · [Full thesis (PDF, Persian)]({{ '/files/Provability%20Logic%20of%20PRA.pdf' | relative_url }})
 
 ## Current areas of interest
 
