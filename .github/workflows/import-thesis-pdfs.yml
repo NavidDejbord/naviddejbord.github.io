@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'files/navid-academic-pdfs.zip'
+      - 'files/*.zip'
   workflow_dispatch:
 
 permissions:
@@ -22,7 +22,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          archive="files/navid-academic-pdfs.zip"
+          archive="$(find files -maxdepth 1 -type f -name '*.zip' -print -quit)"
+          test -n "$archive"
           test -f "$archive"
           mkdir -p /tmp/thesis-pdfs
           unzip -oq "$archive" -d /tmp/thesis-pdfs
@@ -35,6 +36,6 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add files/masters-thesis.pdf files/masters-thesis-summary.pdf files/bachelors-thesis.pdf files/bachelors-thesis-summary.pdf files/navid-academic-pdfs.zip
+          git add files/masters-thesis.pdf files/masters-thesis-summary.pdf files/bachelors-thesis.pdf files/bachelors-thesis-summary.pdf files/*.zip
           git commit -m "Add thesis PDFs to academic website"
           git push origin HEAD:main
